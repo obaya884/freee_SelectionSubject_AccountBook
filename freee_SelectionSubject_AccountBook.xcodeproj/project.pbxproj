@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24154B80752E6C115E044787 /* Pods_freee_SelectionSubject_AccountBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DA1DBEF737C2EEC40DEADE /* Pods_freee_SelectionSubject_AccountBook.framework */; };
 		663F3E042292938700F94FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E032292938700F94FDE /* AppDelegate.swift */; };
-		663F3E062292938700F94FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E052292938700F94FDE /* ViewController.swift */; };
 		663F3E092292938700F94FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E072292938700F94FDE /* Main.storyboard */; };
 		663F3E0C2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E0A2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld */; };
 		663F3E0E2292938800F94FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E0D2292938800F94FDE /* Assets.xcassets */; };
 		663F3E112292938800F94FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E0F2292938800F94FDE /* LaunchScreen.storyboard */; };
 		663F3E1C2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E1B2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift */; };
 		663F3E272292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E262292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift */; };
+		663F3E382292940800F94FDE /* EditingStyleChangeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E342292940800F94FDE /* EditingStyleChangeTextField.swift */; };
+		663F3E392292940800F94FDE /* IBDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E352292940800F94FDE /* IBDesignableButton.swift */; };
+		663F3E3A2292940800F94FDE /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E362292940800F94FDE /* CustomTableViewCell.xib */; };
+		663F3E3B2292940800F94FDE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E372292940800F94FDE /* CustomTableViewCell.swift */; };
+		663F3E412292941A00F94FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E3C2292941900F94FDE /* ViewController.swift */; };
+		663F3E422292941A00F94FDE /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E3D2292941A00F94FDE /* ModalViewController.xib */; };
+		663F3E432292941A00F94FDE /* TouchEventChainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E3E2292941A00F94FDE /* TouchEventChainTableView.swift */; };
+		663F3E442292941A00F94FDE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E3F2292941A00F94FDE /* ModalViewController.swift */; };
+		663F3E482292BB7F00F94FDE /* String_isOnlyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E472292BB7F00F94FDE /* String_isOnlyNumber.swift */; };
+		96F3E4C9D490D574398A424B /* Pods_freee_SelectionSubject_AccountBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45DF7CE151D07EB17FF2EE /* Pods_freee_SelectionSubject_AccountBookTests.framework */; };
+		E44412A292FF3F5C34B147DC /* Pods_freee_SelectionSubject_AccountBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF29E376AD295AFFC154AC /* Pods_freee_SelectionSubject_AccountBookUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C276B82A6451341FF4D9BC0 /* Pods-freee_SelectionSubject_AccountBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBookTests/Pods-freee_SelectionSubject_AccountBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		21A2BA9CAEBA83CE3AD3C292 /* Pods-freee_SelectionSubject_AccountBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBook/Pods-freee_SelectionSubject_AccountBook.release.xcconfig"; sourceTree = "<group>"; };
+		21DA1DBEF737C2EEC40DEADE /* Pods_freee_SelectionSubject_AccountBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freee_SelectionSubject_AccountBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDF8DEDA4B56A79BCF785D8 /* Pods-freee_SelectionSubject_AccountBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBookUITests/Pods-freee_SelectionSubject_AccountBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		663F3E002292938700F94FDE /* freee_SelectionSubject_AccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freee_SelectionSubject_AccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663F3E032292938700F94FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		663F3E052292938700F94FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		663F3E082292938700F94FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		663F3E0B2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = freee_SelectionSubject_AccountBook.xcdatamodel; sourceTree = "<group>"; };
 		663F3E0D2292938800F94FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +63,20 @@
 		663F3E222292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freee_SelectionSubject_AccountBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		663F3E262292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freee_SelectionSubject_AccountBookUITests.swift; sourceTree = "<group>"; };
 		663F3E282292938800F94FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663F3E342292940800F94FDE /* EditingStyleChangeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingStyleChangeTextField.swift; sourceTree = "<group>"; };
+		663F3E352292940800F94FDE /* IBDesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableButton.swift; sourceTree = "<group>"; };
+		663F3E362292940800F94FDE /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		663F3E372292940800F94FDE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		663F3E3C2292941900F94FDE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../4DevidedTodoMemo/4DevidedTodoMemo/ViewController.swift; sourceTree = "<group>"; };
+		663F3E3D2292941A00F94FDE /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		663F3E3E2292941A00F94FDE /* TouchEventChainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchEventChainTableView.swift; sourceTree = "<group>"; };
+		663F3E3F2292941A00F94FDE /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		663F3E472292BB7F00F94FDE /* String_isOnlyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_isOnlyNumber.swift; path = freee_SelectionSubject_AccountBook/String_isOnlyNumber.swift; sourceTree = SOURCE_ROOT; };
+		6A1709B42EA317B4E7D4DEE0 /* Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBookTests/Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EAF43883BC195CA352AE4F4 /* Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBookUITests/Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94CF29E376AD295AFFC154AC /* Pods_freee_SelectionSubject_AccountBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freee_SelectionSubject_AccountBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C45DF7CE151D07EB17FF2EE /* Pods_freee_SelectionSubject_AccountBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freee_SelectionSubject_AccountBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB069707CF6C59F5F1907262 /* Pods-freee_SelectionSubject_AccountBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBook/Pods-freee_SelectionSubject_AccountBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24154B80752E6C115E044787 /* Pods_freee_SelectionSubject_AccountBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F3E4C9D490D574398A424B /* Pods_freee_SelectionSubject_AccountBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E44412A292FF3F5C34B147DC /* Pods_freee_SelectionSubject_AccountBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,8 @@
 				663F3E1A2292938800F94FDE /* freee_SelectionSubject_AccountBookTests */,
 				663F3E252292938800F94FDE /* freee_SelectionSubject_AccountBookUITests */,
 				663F3E012292938700F94FDE /* Products */,
+				9FE20C8732ED29FF309DA62C /* Pods */,
+				C4C41DC9240B44D4B340BEF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +132,14 @@
 		663F3E022292938700F94FDE /* freee_SelectionSubject_AccountBook */ = {
 			isa = PBXGroup;
 			children = (
+				663F3E3F2292941A00F94FDE /* ModalViewController.swift */,
+				663F3E3D2292941A00F94FDE /* ModalViewController.xib */,
+				663F3E3C2292941900F94FDE /* ViewController.swift */,
+				663F3E372292940800F94FDE /* CustomTableViewCell.swift */,
+				663F3E362292940800F94FDE /* CustomTableViewCell.xib */,
 				663F3E032292938700F94FDE /* AppDelegate.swift */,
-				663F3E052292938700F94FDE /* ViewController.swift */,
 				663F3E072292938700F94FDE /* Main.storyboard */,
+				663F3E4622929CDA00F94FDE /* CustomClass */,
 				663F3E0D2292938800F94FDE /* Assets.xcassets */,
 				663F3E0F2292938800F94FDE /* LaunchScreen.storyboard */,
 				663F3E122292938800F94FDE /* Info.plist */,
@@ -128,6 +166,40 @@
 			path = freee_SelectionSubject_AccountBookUITests;
 			sourceTree = "<group>";
 		};
+		663F3E4622929CDA00F94FDE /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				663F3E3E2292941A00F94FDE /* TouchEventChainTableView.swift */,
+				663F3E342292940800F94FDE /* EditingStyleChangeTextField.swift */,
+				663F3E352292940800F94FDE /* IBDesignableButton.swift */,
+				663F3E472292BB7F00F94FDE /* String_isOnlyNumber.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		9FE20C8732ED29FF309DA62C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB069707CF6C59F5F1907262 /* Pods-freee_SelectionSubject_AccountBook.debug.xcconfig */,
+				21A2BA9CAEBA83CE3AD3C292 /* Pods-freee_SelectionSubject_AccountBook.release.xcconfig */,
+				6A1709B42EA317B4E7D4DEE0 /* Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig */,
+				1C276B82A6451341FF4D9BC0 /* Pods-freee_SelectionSubject_AccountBookTests.release.xcconfig */,
+				4BDF8DEDA4B56A79BCF785D8 /* Pods-freee_SelectionSubject_AccountBookUITests.debug.xcconfig */,
+				8EAF43883BC195CA352AE4F4 /* Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4C41DC9240B44D4B340BEF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21DA1DBEF737C2EEC40DEADE /* Pods_freee_SelectionSubject_AccountBook.framework */,
+				9C45DF7CE151D07EB17FF2EE /* Pods_freee_SelectionSubject_AccountBookTests.framework */,
+				94CF29E376AD295AFFC154AC /* Pods_freee_SelectionSubject_AccountBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663F3E2B2292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBook" */;
 			buildPhases = (
+				3E3EEE0395C51D970A32F630 /* [CP] Check Pods Manifest.lock */,
 				663F3DFC2292938700F94FDE /* Sources */,
 				663F3DFD2292938700F94FDE /* Frameworks */,
 				663F3DFE2292938700F94FDE /* Resources */,
+				81E21BE40E8FB76DFBEDC902 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663F3E2E2292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBookTests" */;
 			buildPhases = (
+				F16BB14A60C7E49CA8934701 /* [CP] Check Pods Manifest.lock */,
 				663F3E132292938800F94FDE /* Sources */,
 				663F3E142292938800F94FDE /* Frameworks */,
 				663F3E152292938800F94FDE /* Resources */,
@@ -170,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 663F3E312292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBookUITests" */;
 			buildPhases = (
+				65C6959602B20CA320DC9BC1 /* [CP] Check Pods Manifest.lock */,
 				663F3E1E2292938800F94FDE /* Sources */,
 				663F3E1F2292938800F94FDE /* Frameworks */,
 				663F3E202292938800F94FDE /* Resources */,
@@ -233,7 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				663F3E112292938800F94FDE /* LaunchScreen.storyboard in Resources */,
+				663F3E422292941A00F94FDE /* ModalViewController.xib in Resources */,
 				663F3E0E2292938800F94FDE /* Assets.xcassets in Resources */,
+				663F3E3A2292940800F94FDE /* CustomTableViewCell.xib in Resources */,
 				663F3E092292938700F94FDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +332,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E3EEE0395C51D970A32F630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-freee_SelectionSubject_AccountBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C6959602B20CA320DC9BC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-freee_SelectionSubject_AccountBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81E21BE40E8FB76DFBEDC902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBook/Pods-freee_SelectionSubject_AccountBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/LTHRadioButton/LTHRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTHRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBook/Pods-freee_SelectionSubject_AccountBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16BB14A60C7E49CA8934701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-freee_SelectionSubject_AccountBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		663F3DFC2292938700F94FDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663F3E3B2292940800F94FDE /* CustomTableViewCell.swift in Sources */,
+				663F3E382292940800F94FDE /* EditingStyleChangeTextField.swift in Sources */,
 				663F3E0C2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld in Sources */,
-				663F3E062292938700F94FDE /* ViewController.swift in Sources */,
+				663F3E482292BB7F00F94FDE /* String_isOnlyNumber.swift in Sources */,
+				663F3E432292941A00F94FDE /* TouchEventChainTableView.swift in Sources */,
+				663F3E412292941A00F94FDE /* ViewController.swift in Sources */,
 				663F3E042292938700F94FDE /* AppDelegate.swift in Sources */,
+				663F3E442292941A00F94FDE /* ModalViewController.swift in Sources */,
+				663F3E392292940800F94FDE /* IBDesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +597,13 @@
 		};
 		663F3E2C2292938800F94FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB069707CF6C59F5F1907262 /* Pods-freee_SelectionSubject_AccountBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = freee_SelectionSubject_AccountBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +617,13 @@
 		};
 		663F3E2D2292938800F94FDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A2BA9CAEBA83CE3AD3C292 /* Pods-freee_SelectionSubject_AccountBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = freee_SelectionSubject_AccountBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +637,7 @@
 		};
 		663F3E2F2292938800F94FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1709B42EA317B4E7D4DEE0 /* Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +659,7 @@
 		};
 		663F3E302292938800F94FDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C276B82A6451341FF4D9BC0 /* Pods-freee_SelectionSubject_AccountBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +681,7 @@
 		};
 		663F3E322292938800F94FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BDF8DEDA4B56A79BCF785D8 /* Pods-freee_SelectionSubject_AccountBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +702,7 @@
 		};
 		663F3E332292938800F94FDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAF43883BC195CA352AE4F4 /* Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
