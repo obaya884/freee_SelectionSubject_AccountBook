@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		663F3E042292938700F94FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E032292938700F94FDE /* AppDelegate.swift */; };
+		663F3E062292938700F94FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E052292938700F94FDE /* ViewController.swift */; };
+		663F3E092292938700F94FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E072292938700F94FDE /* Main.storyboard */; };
+		663F3E0C2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E0A2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld */; };
+		663F3E0E2292938800F94FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E0D2292938800F94FDE /* Assets.xcassets */; };
+		663F3E112292938800F94FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E0F2292938800F94FDE /* LaunchScreen.storyboard */; };
+		663F3E1C2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E1B2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift */; };
+		663F3E272292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E262292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663F3E182292938800F94FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663F3DF82292938700F94FDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663F3DFF2292938700F94FDE;
+			remoteInfo = freee_SelectionSubject_AccountBook;
+		};
+		663F3E232292938800F94FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 663F3DF82292938700F94FDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 663F3DFF2292938700F94FDE;
+			remoteInfo = freee_SelectionSubject_AccountBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		663F3E002292938700F94FDE /* freee_SelectionSubject_AccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freee_SelectionSubject_AccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		663F3E032292938700F94FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		663F3E052292938700F94FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		663F3E082292938700F94FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		663F3E0B2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = freee_SelectionSubject_AccountBook.xcdatamodel; sourceTree = "<group>"; };
+		663F3E0D2292938800F94FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		663F3E102292938800F94FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		663F3E122292938800F94FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663F3E172292938800F94FDE /* freee_SelectionSubject_AccountBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freee_SelectionSubject_AccountBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		663F3E1B2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freee_SelectionSubject_AccountBookTests.swift; sourceTree = "<group>"; };
+		663F3E1D2292938800F94FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663F3E222292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freee_SelectionSubject_AccountBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		663F3E262292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freee_SelectionSubject_AccountBookUITests.swift; sourceTree = "<group>"; };
+		663F3E282292938800F94FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663F3DFD2292938700F94FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663F3E142292938800F94FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663F3E1F2292938800F94FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		663F3DF72292938700F94FDE = {
+			isa = PBXGroup;
+			children = (
+				663F3E022292938700F94FDE /* freee_SelectionSubject_AccountBook */,
+				663F3E1A2292938800F94FDE /* freee_SelectionSubject_AccountBookTests */,
+				663F3E252292938800F94FDE /* freee_SelectionSubject_AccountBookUITests */,
+				663F3E012292938700F94FDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		663F3E012292938700F94FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663F3E002292938700F94FDE /* freee_SelectionSubject_AccountBook.app */,
+				663F3E172292938800F94FDE /* freee_SelectionSubject_AccountBookTests.xctest */,
+				663F3E222292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663F3E022292938700F94FDE /* freee_SelectionSubject_AccountBook */ = {
+			isa = PBXGroup;
+			children = (
+				663F3E032292938700F94FDE /* AppDelegate.swift */,
+				663F3E052292938700F94FDE /* ViewController.swift */,
+				663F3E072292938700F94FDE /* Main.storyboard */,
+				663F3E0D2292938800F94FDE /* Assets.xcassets */,
+				663F3E0F2292938800F94FDE /* LaunchScreen.storyboard */,
+				663F3E122292938800F94FDE /* Info.plist */,
+				663F3E0A2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld */,
+			);
+			path = freee_SelectionSubject_AccountBook;
+			sourceTree = "<group>";
+		};
+		663F3E1A2292938800F94FDE /* freee_SelectionSubject_AccountBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				663F3E1B2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift */,
+				663F3E1D2292938800F94FDE /* Info.plist */,
+			);
+			path = freee_SelectionSubject_AccountBookTests;
+			sourceTree = "<group>";
+		};
+		663F3E252292938800F94FDE /* freee_SelectionSubject_AccountBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				663F3E262292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift */,
+				663F3E282292938800F94FDE /* Info.plist */,
+			);
+			path = freee_SelectionSubject_AccountBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663F3DFF2292938700F94FDE /* freee_SelectionSubject_AccountBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663F3E2B2292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBook" */;
+			buildPhases = (
+				663F3DFC2292938700F94FDE /* Sources */,
+				663F3DFD2292938700F94FDE /* Frameworks */,
+				663F3DFE2292938700F94FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freee_SelectionSubject_AccountBook;
+			productName = freee_SelectionSubject_AccountBook;
+			productReference = 663F3E002292938700F94FDE /* freee_SelectionSubject_AccountBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		663F3E162292938800F94FDE /* freee_SelectionSubject_AccountBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663F3E2E2292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBookTests" */;
+			buildPhases = (
+				663F3E132292938800F94FDE /* Sources */,
+				663F3E142292938800F94FDE /* Frameworks */,
+				663F3E152292938800F94FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663F3E192292938800F94FDE /* PBXTargetDependency */,
+			);
+			name = freee_SelectionSubject_AccountBookTests;
+			productName = freee_SelectionSubject_AccountBookTests;
+			productReference = 663F3E172292938800F94FDE /* freee_SelectionSubject_AccountBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		663F3E212292938800F94FDE /* freee_SelectionSubject_AccountBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663F3E312292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBookUITests" */;
+			buildPhases = (
+				663F3E1E2292938800F94FDE /* Sources */,
+				663F3E1F2292938800F94FDE /* Frameworks */,
+				663F3E202292938800F94FDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				663F3E242292938800F94FDE /* PBXTargetDependency */,
+			);
+			name = freee_SelectionSubject_AccountBookUITests;
+			productName = freee_SelectionSubject_AccountBookUITests;
+			productReference = 663F3E222292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663F3DF82292938700F94FDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TakumiObayashi;
+				TargetAttributes = {
+					663F3DFF2292938700F94FDE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					663F3E162292938800F94FDE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 663F3DFF2292938700F94FDE;
+					};
+					663F3E212292938800F94FDE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 663F3DFF2292938700F94FDE;
+					};
+				};
+			};
+			buildConfigurationList = 663F3DFB2292938700F94FDE /* Build configuration list for PBXProject "freee_SelectionSubject_AccountBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 663F3DF72292938700F94FDE;
+			productRefGroup = 663F3E012292938700F94FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663F3DFF2292938700F94FDE /* freee_SelectionSubject_AccountBook */,
+				663F3E162292938800F94FDE /* freee_SelectionSubject_AccountBookTests */,
+				663F3E212292938800F94FDE /* freee_SelectionSubject_AccountBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663F3DFE2292938700F94FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663F3E112292938800F94FDE /* LaunchScreen.storyboard in Resources */,
+				663F3E0E2292938800F94FDE /* Assets.xcassets in Resources */,
+				663F3E092292938700F94FDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663F3E152292938800F94FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663F3E202292938800F94FDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663F3DFC2292938700F94FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663F3E0C2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld in Sources */,
+				663F3E062292938700F94FDE /* ViewController.swift in Sources */,
+				663F3E042292938700F94FDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663F3E132292938800F94FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663F3E1C2292938800F94FDE /* freee_SelectionSubject_AccountBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663F3E1E2292938800F94FDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663F3E272292938800F94FDE /* freee_SelectionSubject_AccountBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		663F3E192292938800F94FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663F3DFF2292938700F94FDE /* freee_SelectionSubject_AccountBook */;
+			targetProxy = 663F3E182292938800F94FDE /* PBXContainerItemProxy */;
+		};
+		663F3E242292938800F94FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 663F3DFF2292938700F94FDE /* freee_SelectionSubject_AccountBook */;
+			targetProxy = 663F3E232292938800F94FDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		663F3E072292938700F94FDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663F3E082292938700F94FDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		663F3E0F2292938800F94FDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663F3E102292938800F94FDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		663F3E292292938800F94FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		663F3E2A2292938800F94FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		663F3E2C2292938800F94FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				INFOPLIST_FILE = freee_SelectionSubject_AccountBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TakumiObayashi.freee-SelectionSubject-AccountBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		663F3E2D2292938800F94FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				INFOPLIST_FILE = freee_SelectionSubject_AccountBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TakumiObayashi.freee-SelectionSubject-AccountBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		663F3E2F2292938800F94FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				INFOPLIST_FILE = freee_SelectionSubject_AccountBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TakumiObayashi.freee-SelectionSubject-AccountBookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freee_SelectionSubject_AccountBook.app/freee_SelectionSubject_AccountBook";
+			};
+			name = Debug;
+		};
+		663F3E302292938800F94FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				INFOPLIST_FILE = freee_SelectionSubject_AccountBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TakumiObayashi.freee-SelectionSubject-AccountBookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freee_SelectionSubject_AccountBook.app/freee_SelectionSubject_AccountBook";
+			};
+			name = Release;
+		};
+		663F3E322292938800F94FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				INFOPLIST_FILE = freee_SelectionSubject_AccountBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TakumiObayashi.freee-SelectionSubject-AccountBookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = freee_SelectionSubject_AccountBook;
+			};
+			name = Debug;
+		};
+		663F3E332292938800F94FDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				INFOPLIST_FILE = freee_SelectionSubject_AccountBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TakumiObayashi.freee-SelectionSubject-AccountBookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = freee_SelectionSubject_AccountBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663F3DFB2292938700F94FDE /* Build configuration list for PBXProject "freee_SelectionSubject_AccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663F3E292292938800F94FDE /* Debug */,
+				663F3E2A2292938800F94FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663F3E2B2292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663F3E2C2292938800F94FDE /* Debug */,
+				663F3E2D2292938800F94FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663F3E2E2292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663F3E2F2292938800F94FDE /* Debug */,
+				663F3E302292938800F94FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663F3E312292938800F94FDE /* Build configuration list for PBXNativeTarget "freee_SelectionSubject_AccountBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663F3E322292938800F94FDE /* Debug */,
+				663F3E332292938800F94FDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		663F3E0A2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				663F3E0B2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodel */,
+			);
+			currentVersion = 663F3E0B2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodel */;
+			path = freee_SelectionSubject_AccountBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 663F3DF82292938700F94FDE /* Project object */;
+}
