@@ -19,11 +19,15 @@
 		663F3E392292940800F94FDE /* IBDesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E352292940800F94FDE /* IBDesignableButton.swift */; };
 		663F3E3A2292940800F94FDE /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E362292940800F94FDE /* CustomTableViewCell.xib */; };
 		663F3E3B2292940800F94FDE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E372292940800F94FDE /* CustomTableViewCell.swift */; };
-		663F3E412292941A00F94FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E3C2292941900F94FDE /* ViewController.swift */; };
 		663F3E422292941A00F94FDE /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663F3E3D2292941A00F94FDE /* ModalViewController.xib */; };
 		663F3E432292941A00F94FDE /* TouchEventChainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E3E2292941A00F94FDE /* TouchEventChainTableView.swift */; };
 		663F3E442292941A00F94FDE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E3F2292941A00F94FDE /* ModalViewController.swift */; };
 		663F3E482292BB7F00F94FDE /* String_isOnlyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663F3E472292BB7F00F94FDE /* String_isOnlyNumber.swift */; };
+		6670630022948F310053D3B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667062FF22948F310053D3B7 /* MainViewController.swift */; };
+		668F4A892293D587009C3AD2 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F4A882293D587009C3AD2 /* PageViewController.swift */; };
+		668F4A8B2293D5B1009C3AD2 /* PageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668F4A8A2293D5B1009C3AD2 /* PageView.storyboard */; };
+		668F4A8E2293D624009C3AD2 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F4A8C2293D624009C3AD2 /* SummaryViewController.swift */; };
+		668F4A922293D65C009C3AD2 /* SummaryView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668F4A912293D65C009C3AD2 /* SummaryView.storyboard */; };
 		96F3E4C9D490D574398A424B /* Pods_freee_SelectionSubject_AccountBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C45DF7CE151D07EB17FF2EE /* Pods_freee_SelectionSubject_AccountBookTests.framework */; };
 		E44412A292FF3F5C34B147DC /* Pods_freee_SelectionSubject_AccountBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94CF29E376AD295AFFC154AC /* Pods_freee_SelectionSubject_AccountBookUITests.framework */; };
 /* End PBXBuildFile section */
@@ -67,11 +71,15 @@
 		663F3E352292940800F94FDE /* IBDesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableButton.swift; sourceTree = "<group>"; };
 		663F3E362292940800F94FDE /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		663F3E372292940800F94FDE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		663F3E3C2292941900F94FDE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../4DevidedTodoMemo/4DevidedTodoMemo/ViewController.swift; sourceTree = "<group>"; };
 		663F3E3D2292941A00F94FDE /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
 		663F3E3E2292941A00F94FDE /* TouchEventChainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchEventChainTableView.swift; sourceTree = "<group>"; };
 		663F3E3F2292941A00F94FDE /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		663F3E472292BB7F00F94FDE /* String_isOnlyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = String_isOnlyNumber.swift; path = freee_SelectionSubject_AccountBook/String_isOnlyNumber.swift; sourceTree = SOURCE_ROOT; };
+		667062FF22948F310053D3B7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		668F4A882293D587009C3AD2 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		668F4A8A2293D5B1009C3AD2 /* PageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageView.storyboard; sourceTree = "<group>"; };
+		668F4A8C2293D624009C3AD2 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		668F4A912293D65C009C3AD2 /* SummaryView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SummaryView.storyboard; sourceTree = "<group>"; };
 		6A1709B42EA317B4E7D4DEE0 /* Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBookTests/Pods-freee_SelectionSubject_AccountBookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EAF43883BC195CA352AE4F4 /* Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBookUITests/Pods-freee_SelectionSubject_AccountBookUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94CF29E376AD295AFFC154AC /* Pods_freee_SelectionSubject_AccountBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_freee_SelectionSubject_AccountBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,14 +140,18 @@
 		663F3E022292938700F94FDE /* freee_SelectionSubject_AccountBook */ = {
 			isa = PBXGroup;
 			children = (
+				663F3E032292938700F94FDE /* AppDelegate.swift */,
+				667062FF22948F310053D3B7 /* MainViewController.swift */,
+				663F3E072292938700F94FDE /* Main.storyboard */,
+				668F4A8C2293D624009C3AD2 /* SummaryViewController.swift */,
+				668F4A912293D65C009C3AD2 /* SummaryView.storyboard */,
 				663F3E3F2292941A00F94FDE /* ModalViewController.swift */,
 				663F3E3D2292941A00F94FDE /* ModalViewController.xib */,
-				663F3E3C2292941900F94FDE /* ViewController.swift */,
 				663F3E372292940800F94FDE /* CustomTableViewCell.swift */,
 				663F3E362292940800F94FDE /* CustomTableViewCell.xib */,
-				663F3E032292938700F94FDE /* AppDelegate.swift */,
-				663F3E072292938700F94FDE /* Main.storyboard */,
-				663F3E4622929CDA00F94FDE /* CustomClass */,
+				668F4A882293D587009C3AD2 /* PageViewController.swift */,
+				668F4A8A2293D5B1009C3AD2 /* PageView.storyboard */,
+				663F3E4622929CDA00F94FDE /* CustomClass_and_Extensions */,
 				663F3E0D2292938800F94FDE /* Assets.xcassets */,
 				663F3E0F2292938800F94FDE /* LaunchScreen.storyboard */,
 				663F3E122292938800F94FDE /* Info.plist */,
@@ -166,7 +178,7 @@
 			path = freee_SelectionSubject_AccountBookUITests;
 			sourceTree = "<group>";
 		};
-		663F3E4622929CDA00F94FDE /* CustomClass */ = {
+		663F3E4622929CDA00F94FDE /* CustomClass_and_Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				663F3E3E2292941A00F94FDE /* TouchEventChainTableView.swift */,
@@ -174,7 +186,7 @@
 				663F3E352292940800F94FDE /* IBDesignableButton.swift */,
 				663F3E472292BB7F00F94FDE /* String_isOnlyNumber.swift */,
 			);
-			path = CustomClass;
+			path = CustomClass_and_Extensions;
 			sourceTree = "<group>";
 		};
 		9FE20C8732ED29FF309DA62C /* Pods */ = {
@@ -308,9 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668F4A8B2293D5B1009C3AD2 /* PageView.storyboard in Resources */,
 				663F3E112292938800F94FDE /* LaunchScreen.storyboard in Resources */,
 				663F3E422292941A00F94FDE /* ModalViewController.xib in Resources */,
 				663F3E0E2292938800F94FDE /* Assets.xcassets in Resources */,
+				668F4A922293D65C009C3AD2 /* SummaryView.storyboard in Resources */,
 				663F3E3A2292940800F94FDE /* CustomTableViewCell.xib in Resources */,
 				663F3E092292938700F94FDE /* Main.storyboard in Resources */,
 			);
@@ -376,12 +390,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-freee_SelectionSubject_AccountBook/Pods-freee_SelectionSubject_AccountBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/LTHRadioButton/LTHRadioButton.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTHRadioButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
@@ -417,11 +433,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				663F3E3B2292940800F94FDE /* CustomTableViewCell.swift in Sources */,
+				6670630022948F310053D3B7 /* MainViewController.swift in Sources */,
+				668F4A892293D587009C3AD2 /* PageViewController.swift in Sources */,
 				663F3E382292940800F94FDE /* EditingStyleChangeTextField.swift in Sources */,
 				663F3E0C2292938700F94FDE /* freee_SelectionSubject_AccountBook.xcdatamodeld in Sources */,
+				668F4A8E2293D624009C3AD2 /* SummaryViewController.swift in Sources */,
 				663F3E482292BB7F00F94FDE /* String_isOnlyNumber.swift in Sources */,
 				663F3E432292941A00F94FDE /* TouchEventChainTableView.swift in Sources */,
-				663F3E412292941A00F94FDE /* ViewController.swift in Sources */,
 				663F3E042292938700F94FDE /* AppDelegate.swift in Sources */,
 				663F3E442292941A00F94FDE /* ModalViewController.swift in Sources */,
 				663F3E392292940800F94FDE /* IBDesignableButton.swift in Sources */,

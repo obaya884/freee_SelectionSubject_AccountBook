@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5BCC7BD0-8CBD-419F-8220-95E3EE413DFF</key>
+		<key>129191CB-BB55-44CE-B704-71D132954635</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,59 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>5BCC7BD0-8CBD-419F-8220-95E3EE413DFF.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>PopupDialog-efdkmmxqoixtzoabwuhzocnlrffd</string>
-			<key>timeStartedRecording</key>
-			<real>580042116.21201003</real>
-			<key>timeStoppedRecording</key>
-			<real>580042116.256127</real>
-			<key>title</key>
-			<string>Build target PopupDialog</string>
-			<key>uniqueIdentifier</key>
-			<string>5BCC7BD0-8CBD-419F-8220-95E3EE413DFF</string>
-		</dict>
-		<key>5D5D0CCB-0BEE-4E5B-A1B8-F268DDD88139</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>5D5D0CCB-0BEE-4E5B-A1B8-F268DDD88139.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>freee_SelectionSubject_AccountBook-bssexkaawoaraccuzvkyzgdhjsjg</string>
-			<key>timeStartedRecording</key>
-			<real>580042116.30530798</real>
-			<key>timeStoppedRecording</key>
-			<real>580042117.63128996</real>
-			<key>title</key>
-			<string>Build target freee_SelectionSubject_AccountBook</string>
-			<key>uniqueIdentifier</key>
-			<string>5D5D0CCB-0BEE-4E5B-A1B8-F268DDD88139</string>
-		</dict>
-		<key>7B6ADBF1-FB90-482B-AF5F-31E72CF4D69F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>7B6ADBF1-FB90-482B-AF5F-31E72CF4D69F.xcactivitylog</string>
+			<string>129191CB-BB55-44CE-B704-71D132954635.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -76,15 +24,15 @@
 			<key>signature</key>
 			<string>Pods-freee_SelectionSubject_AccountBook-efdkmmxqoixtzoabwuhzocnlrffd</string>
 			<key>timeStartedRecording</key>
-			<real>580042116.25766599</real>
+			<real>580162654.60816097</real>
 			<key>timeStoppedRecording</key>
-			<real>580042116.30440402</real>
+			<real>580162654.61766899</real>
 			<key>title</key>
 			<string>Build target Pods-freee_SelectionSubject_AccountBook</string>
 			<key>uniqueIdentifier</key>
-			<string>7B6ADBF1-FB90-482B-AF5F-31E72CF4D69F</string>
+			<string>129191CB-BB55-44CE-B704-71D132954635</string>
 		</dict>
-		<key>A7042371-0BDC-489B-A9D6-FE018425ECB8</key>
+		<key>4D365AF3-931C-4112-A6D2-85236C922B63</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -93,7 +41,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>A7042371-0BDC-489B-A9D6-FE018425ECB8.xcactivitylog</string>
+			<string>4D365AF3-931C-4112-A6D2-85236C922B63.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -102,15 +50,15 @@
 			<key>signature</key>
 			<string>DynamicBlurView-efdkmmxqoixtzoabwuhzocnlrffd</string>
 			<key>timeStartedRecording</key>
-			<real>580042116.16350603</real>
+			<real>580162653.84068406</real>
 			<key>timeStoppedRecording</key>
-			<real>580042116.20471597</real>
+			<real>580162653.84816003</real>
 			<key>title</key>
 			<string>Build target DynamicBlurView</string>
 			<key>uniqueIdentifier</key>
-			<string>A7042371-0BDC-489B-A9D6-FE018425ECB8</string>
+			<string>4D365AF3-931C-4112-A6D2-85236C922B63</string>
 		</dict>
-		<key>E43B6F54-682B-4D36-9003-4AFD0F4BAA88</key>
+		<key>70CB37D5-9E34-4353-91E1-AD3727F5AC7E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -119,7 +67,59 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>E43B6F54-682B-4D36-9003-4AFD0F4BAA88.xcactivitylog</string>
+			<string>70CB37D5-9E34-4353-91E1-AD3727F5AC7E.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>PopupDialog-efdkmmxqoixtzoabwuhzocnlrffd</string>
+			<key>timeStartedRecording</key>
+			<real>580162653.84884799</real>
+			<key>timeStoppedRecording</key>
+			<real>580162654.60488403</real>
+			<key>title</key>
+			<string>Build target PopupDialog</string>
+			<key>uniqueIdentifier</key>
+			<string>70CB37D5-9E34-4353-91E1-AD3727F5AC7E</string>
+		</dict>
+		<key>70F3296E-C706-42D0-B4CA-6A46C5FDAA21</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>70F3296E-C706-42D0-B4CA-6A46C5FDAA21.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Charts-efdkmmxqoixtzoabwuhzocnlrffd</string>
+			<key>timeStartedRecording</key>
+			<real>580162653.83512199</real>
+			<key>timeStoppedRecording</key>
+			<real>580162654.60805202</real>
+			<key>title</key>
+			<string>Build target Charts</string>
+			<key>uniqueIdentifier</key>
+			<string>70F3296E-C706-42D0-B4CA-6A46C5FDAA21</string>
+		</dict>
+		<key>89EC16AC-19CD-452D-A8E2-01F427A95FB7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>89EC16AC-19CD-452D-A8E2-01F427A95FB7.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -128,13 +128,39 @@
 			<key>signature</key>
 			<string>LTHRadioButton-efdkmmxqoixtzoabwuhzocnlrffd</string>
 			<key>timeStartedRecording</key>
-			<real>580041600.58343005</real>
+			<real>580162653.85452104</real>
 			<key>timeStoppedRecording</key>
-			<real>580041600.58839595</real>
+			<real>580162654.60128796</real>
 			<key>title</key>
 			<string>Build target LTHRadioButton</string>
 			<key>uniqueIdentifier</key>
-			<string>E43B6F54-682B-4D36-9003-4AFD0F4BAA88</string>
+			<string>89EC16AC-19CD-452D-A8E2-01F427A95FB7</string>
+		</dict>
+		<key>9FDAF714-C02A-4368-A8E6-3FCA2F5594B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>9FDAF714-C02A-4368-A8E6-3FCA2F5594B0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>freee_SelectionSubject_AccountBook-bssexkaawoaraccuzvkyzgdhjsjg</string>
+			<key>timeStartedRecording</key>
+			<real>580163336.56105101</real>
+			<key>timeStoppedRecording</key>
+			<real>580163336.95943606</real>
+			<key>title</key>
+			<string>Build target freee_SelectionSubject_AccountBook</string>
+			<key>uniqueIdentifier</key>
+			<string>9FDAF714-C02A-4368-A8E6-3FCA2F5594B0</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

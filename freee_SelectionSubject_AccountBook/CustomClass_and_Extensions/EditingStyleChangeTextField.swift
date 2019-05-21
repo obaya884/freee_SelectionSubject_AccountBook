@@ -48,8 +48,13 @@ class EditingStyleChangeTextField: UITextField, UITextFieldDelegate {
             self.backgroundColor = .red
             return false
         }
+        else if(tag == 4 && self.text?.isOnlyNumeric() == false){
+                self.backgroundColor = .red
+                return false
+        }
         else{
-            //UserDefaultsの登録を上書き
+            // タグごとの処理
+            // 0~3: MainView, 4: SummaryView
             //UserDefaults Instance
             let userDefaults: UserDefaults = UserDefaults.standard
             switch tag {
@@ -61,10 +66,11 @@ class EditingStyleChangeTextField: UITextField, UITextFieldDelegate {
                 userDefaults.set(self.text, forKey: "bottomLeftSectionName")
             case 3:
                 userDefaults.set(self.text, forKey: "bottomRightSectionName")
+            case 4:
+                userDefaults.set(self.text, forKey: "monthlyTargetMoneyAmount")
             default:
                 break
             }
-
         return true
         }
     }
@@ -76,6 +82,13 @@ class EditingStyleChangeTextField: UITextField, UITextFieldDelegate {
         print("フォーカスが外れた後")
         self.borderStyle = .none
         self.backgroundColor = .clear
+        
+//        if(tag == 4){
+//            let summaryVC = SummaryViewController()
+//            summaryVC.setUpMonthlyTargetMoneyAmount()
+//            summaryVC.setUpMoneyAmount()
+//            summaryVC.setUpPieChartView()
+//        }
     }
     
     //範囲外タップでキーボードを下げる

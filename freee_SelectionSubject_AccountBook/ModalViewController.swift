@@ -47,6 +47,9 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         
         // itemNameTextField Settings
         self.itemNameTextField.returnKeyType = .done
+        
+        // moneyAmountTextField Settings
+        self.moneyAmountTextField.keyboardType = .numbersAndPunctuation
         self.moneyAmountTextField.returnKeyType = .done
         
         // sectionPickerView Initial Setting
