@@ -6,6 +6,32 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>24D6FC41-BA45-4FB2-92FF-28FEECCB6975</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>24D6FC41-BA45-4FB2-92FF-28FEECCB6975.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>freee_SelectionSubject_AccountBook-fbxykzziofnckmecmbuwcwcixxdm</string>
+			<key>timeStartedRecording</key>
+			<real>580176252.20463598</real>
+			<key>timeStoppedRecording</key>
+			<real>580176254.41878104</real>
+			<key>title</key>
+			<string>Build target freee_SelectionSubject_AccountBook</string>
+			<key>uniqueIdentifier</key>
+			<string>24D6FC41-BA45-4FB2-92FF-28FEECCB6975</string>
+		</dict>
 		<key>64A17D2B-BC63-45DF-B52E-1E05DC53F4EE</key>
 		<dict>
 			<key>className</key>
@@ -135,32 +161,6 @@
 			<string>Build target Charts</string>
 			<key>uniqueIdentifier</key>
 			<string>F5F6E2A9-247D-444F-A1CA-8B3E864535D0</string>
-		</dict>
-		<key>F7D4A022-82F3-4D7A-A222-884822B08CDD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>F7D4A022-82F3-4D7A-A222-884822B08CDD.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>freee_SelectionSubject_AccountBook-fbxykzziofnckmecmbuwcwcixxdm</string>
-			<key>timeStartedRecording</key>
-			<real>580175684.99118805</real>
-			<key>timeStoppedRecording</key>
-			<real>580175695.62232697</real>
-			<key>title</key>
-			<string>Build target freee_SelectionSubject_AccountBook</string>
-			<key>uniqueIdentifier</key>
-			<string>F7D4A022-82F3-4D7A-A222-884822B08CDD</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

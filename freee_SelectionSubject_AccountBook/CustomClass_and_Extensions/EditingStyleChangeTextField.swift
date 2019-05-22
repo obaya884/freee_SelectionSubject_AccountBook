@@ -1,6 +1,6 @@
 //
 //  EditingStyleChangeEditableTextField.swift
-//  4DevidedTodoMemo
+//  freee_SelectionSubject_AccountBook
 //
 //  Created by 大林拓実 on 2019/05/03.
 //  Copyright © 2019 TakumiObayashi. All rights reserved.
@@ -55,7 +55,6 @@ class EditingStyleChangeTextField: UITextField, UITextFieldDelegate {
         else{
             // タグごとの処理
             // 0~3: MainView, 4: SummaryView
-            //UserDefaults Instance
             let userDefaults: UserDefaults = UserDefaults.standard
             switch tag {
             case 0:

@@ -38,16 +38,16 @@ class SummaryViewController: UIViewController, UITextFieldDelegate {
         monthlyTargetMoneyAmountTextField.returnKeyType = .done
         
         setUpMonthlyTargetMoneyAmount()
-        setUpSectionName() //費目名の読み出し,view反映
-        setUpMoneyAmount() //費目ごとの合計金額計算,view反映
-        setUpPieChartView() //グラフ作成
+        setUpSectionName() // 費目名の読み出し,view反映
+        setUpMoneyAmount() // 費目ごとの合計金額計算,view反映
+        setUpPieChartView() // グラフ作成
     }
     
     override func viewWillAppear(_ animated: Bool) {
         setUpMonthlyTargetMoneyAmount()
-        setUpSectionName() //費目名の読み出し
-        setUpMoneyAmount() //費目ごとの合計金額計算
-        setUpPieChartView() //グラフ作成
+        setUpSectionName() // 費目名の読み出し
+        setUpMoneyAmount() // 費目ごとの合計金額計算
+        setUpPieChartView() // グラフ作成
     }
     
     func setUpMonthlyTargetMoneyAmount(){
@@ -159,9 +159,9 @@ class SummaryViewController: UIViewController, UITextFieldDelegate {
         self.pieChartView.data = chartData
     }
     
-    //画面外をタッチした時にキーボードをしまう
+    // 画面外をタッチした時にキーボードをしまう
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        //どのtextfield編集に対しても閉じれるようにviewに対してendEditngする
+        // どのtextfield編集に対しても閉じれるようにviewに対してendEditngする
         self.view.endEditing(true)
     }
 

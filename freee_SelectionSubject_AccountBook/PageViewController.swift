@@ -10,7 +10,7 @@ import UIKit
 
 class PageViewController: UIPageViewController {
     
-    //If you operate the location of pageControl, please use this and set the desired location (use CGRect())
+    // If you operate the location of pageControl, please use this and set the desired location (use CGRect())
     var pageViewControllerArray: [UIViewController] = []
     
     override func viewDidLoad() {
@@ -18,8 +18,8 @@ class PageViewController: UIPageViewController {
         
         // Do any additional setup after loading the view.
         self.dataSource = self
-        //storyboard->optional value
-        //identifier->Storyboard ID's name
+        // storyboard->optional value
+        // identifier->Storyboard ID's name
         let MainViewStoryboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let SummaryViewStoryboard : UIStoryboard = UIStoryboard(name: "SummaryView", bundle: nil)
         
@@ -30,7 +30,7 @@ class PageViewController: UIPageViewController {
         
         self.setViewControllers([pageViewControllerArray.first!], direction: .forward, animated: true, completion: nil)
         
-        //Emerge pageControl
+        //E merge pageControl
 //        let pageControl = UIPageControl.appearance()
 //        pageControl.isOpaque = false //Unclear mode->false
 //        pageControl.currentPageIndicatorTintColor = UIColor.blue
@@ -44,12 +44,12 @@ class PageViewController: UIPageViewController {
     
     
     
-    //Return the current page index
+    // Return the current page index
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return pageViewControllerArray.count
     }
     
-    //Return the first index of pageControl
+    // Return the first index of pageControl
 //    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
 //        return 0
 //    }

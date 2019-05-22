@@ -1,11 +1,11 @@
 //
 //  IBDesignableButton.swift
-//  4DevidedTodoMemo
+//  freee_SelectionSubject_AccountBook
 //
 //  Created by 大林拓実 on 2019/04/28.
 //  Copyright © 2019 TakumiObayashi. All rights reserved.
 //
-// Reference by https://qiita.com/Kta-M/items/ae22fd0c78cb15faee0b
+//  Reference by https://qiita.com/Kta-M/items/ae22fd0c78cb15faee0b
 
 import UIKit
 

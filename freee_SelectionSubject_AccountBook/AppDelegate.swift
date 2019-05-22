@@ -17,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // デバッグ用に起動のたびに初期化
+        if let domain = Bundle.main.bundleIdentifier {
+            let userDefaults = UserDefaults.standard
+            userDefaults.removePersistentDomain(forName: domain)
+        }
+        
         return true
     }
 

@@ -1,6 +1,6 @@
 //
 //  ModalViewController.swift
-//  4DevidedTodoMemo
+//  freee_SelectionSubject_AccountBook
 //
 //  Created by 大林拓実 on 2019/05/02.
 //  Copyright © 2019 TakumiObayashi. All rights reserved.
@@ -33,7 +33,7 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         sectionPickerView.dataSource = self
         sectionPickerView.showsSelectionIndicator = true
         
-        //PickerView ToolBar Setings
+        // PickerView ToolBar Setings
         let toolbar = UIToolbar(frame: CGRect(x: 0, y: 0, width: 0, height: 40))
         let flexibleItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.flexibleSpace, target: nil, action: nil)
         let doneItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(ModalViewController.done))
@@ -60,7 +60,7 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        //PickerView Title Settings
+        // PickerView Title Settings
         sectionNameArray.removeAll()
         
         let userDefaults: UserDefaults = UserDefaults.standard
@@ -71,7 +71,7 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     
     override func viewDidDisappear(_ animated: Bool) {
-        //入力フォームのリセット
+        // 入力フォームのリセット
         self.sectionTextField.text = ""
         self.itemNameTextField.text = ""
         self.moneyAmountTextField.text = ""
@@ -82,7 +82,7 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     @IBAction func pushAddButton(){
         var flag: Bool = true
         
-        //入力検査
+        // 入力検査
         if (sectionTextField.text == ""){
             print("no section")
             sectionTextField.backgroundColor = .red
@@ -104,21 +104,21 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             flag = false
         }
         
-        //flagがtrue(全て入力されていた)なら
+        // flagがtrue(全て入力されていた)なら
         if (flag){
             var sectionTag: Int = 0
             
-            //sectionからtag番号の取得
+            // sectionからtag番号の取得
             for sectionName in sectionNameArray{
                 if(sectionTextField.text == sectionName){
                     sectionTag = sectionNameArray.firstIndex(of: sectionName)!
                 }
             }
-            //入力内容を格納
+            // 入力内容を格納
             let itemName: String = self.itemNameTextField.text!
             let moneyAmount: Int = Int(self.moneyAmountTextField.text!)!
 
-            //入力フォームのリセット
+            // 入力フォームのリセット
             self.sectionTextField.text = ""
             self.itemNameTextField.text = ""
             self.moneyAmountTextField.text = ""
@@ -156,6 +156,7 @@ class ModalViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     // 完了ボタンでキーボードを下げる
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.itemNameTextField.resignFirstResponder()
+        self.moneyAmountTextField.resignFirstResponder()
         return true
     }
     

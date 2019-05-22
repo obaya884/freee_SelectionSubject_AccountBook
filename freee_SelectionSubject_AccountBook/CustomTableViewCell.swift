@@ -1,6 +1,6 @@
 //
 //  CustomTableViewCell.swift
-//  4DevidedTodoMemo
+//  freee_SelectionSubject_AccountBook
 //
 //  Created by 大林拓実 on 2019/04/29.
 //  Copyright © 2019 TakumiObayashi. All rights reserved.
@@ -31,9 +31,9 @@ class CustomTableViewCell: UITableViewCell {
         
         radioButton.onSelect {
             print("call delegate")
-            //処理中のセルを選択不可にする
+            // 処理中のセルを選択不可にする
             self.isUserInteractionEnabled = false
-            //radioButtonのセレクトアニメーションが終わったくらいでセル削除処理
+            // radioButtonのセレクトアニメーションが終わったくらいでセル削除処理
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.4) {
                 self.delegate?.onSelectRadioButton(sender: self.radioButton)
             }
